@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="vendors/angular.min.js"></script>
+        <script src="vendors/angular-route.min.js"></script>
+        <script src="scripts/client.js"></script>
+        <script src="scripts/controllers/home.controller.js"></script>
+        <script src="scripts/controllers/strange.controller.js"></script>
+        <script src="scripts/controllers/croft.controller.js"></script>
+        <script src="scripts/controllers/dany.controller.js"></script>
+        <script src="scripts/services/skillRandom.service.js"></script>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/bootstrap.min.css">
+        <base href="/">
+    </head>
+    <body ng-app="myApp" class="container">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header>
+            <h1>Characters that Inspire Me</h1>
+        </header>
+        <main>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/docstrange">Doctor Strange</a></li>
+                    <li><a href="/laracroft">Lara Croft</a></li>
+                    <li><a href="/motherofdragons">Daenerys Targaryen</a></li>
+                </ul>
+            </nav>
+            <ng-view></ng-view>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>

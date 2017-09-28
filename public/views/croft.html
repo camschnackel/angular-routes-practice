@@ -1,0 +1,33 @@
+<section>
+    <div class="col-md-4" style="margin-top: 30px">
+        <img ng-src="{{cc.image}}" width="100%" height="relative" ng-click="cc.raid()"></iframe>
+    </div>
+    <div class="col-md-8">
+        <h2>Lara Croft</h2>
+        <p>
+            Lara Croft has been a staple of my childhood for as long as I can remember. I spent countless hours traversing through tombs, solving puzzles, 
+            and taking out bad guys. My sister and I would often take turns on our home computer playing through these games. Way back when she was 
+            overly sexualized, but thankfully her character was given a reboot in 2013 and is far more compelling than before. A movie starrring 
+            Ex Machina's Alicia Vikander releases next year, and I can't wait!
+        </p>
+    </div>
+    <div>
+        <h3 id="dragon">{{cc.theTombRaider}}</h3>
+    </div>
+    <div class="col-md-3" id="highFiveArea">
+        <h4>{{cc.textFlavor}}</h4>
+        <button class="btn btn-default" ng-click="cc.playGame()">{{cc.buttonFlavor}}</button>
+    </div>
+    <div class="col-md-3" id="highFiveArea">
+        <h4>High Five Skill</h4>
+        <p>{{cc.skill}}</p>
+    </div>
+    <div class="col-md-3" id="highFiveArea">
+        <h4>High Fives Received</h4>
+        <p>{{cc.highFives}}</p>
+    </div>
+    <div class="col-md-3" id="highFiveArea">
+        <h4>Total High Fives</h4>
+        <p>{{cc.counterFlavor}}</p>
+    </div>
+</section>

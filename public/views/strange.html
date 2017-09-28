@@ -1,0 +1,35 @@
+<section>
+    <div class="col-md-4" style="margin-top: 35px">
+        <img ng-src="{{sc.image}}" width="100%" height="relative" ng-click="sc.spell()"></iframe>
+    </div>
+    <div class="col-md-8">
+        <h2>Doctor Strange</h2>
+        <p>
+            Doctor Strange is AMAZING. In the Marvel Cinematic Universe he is played by Benedict Cumberbatch, a phenominal actor. 
+            Doctor Steven Strange's first movie delves into his origin. He's a world class doctor who loses the ability to use his hands 
+            due to a car accident. He journeys to Kamer-Taj in search of healing, where he is recruited by modern day sorcerers who draw 
+            power from other dimensions of the multiverse to shape reality.
+
+            <br><br>tl;dr, he's a spell-wielding badass that warps reality!
+        </p>
+    </div>
+    <div>
+        <h3 id="dragon">{{sc.theChosenOne}}</h3>
+    </div>
+    <div class="col-md-3" id="highFiveArea">
+        <h4>{{sc.textFlavor}}</h4>
+        <button class="btn btn-default" ng-click="sc.playGame()">{{sc.buttonFlavor}}</button>
+    </div>
+    <div class="col-md-3" id="highFiveArea">
+        <h4>High Five Skill</h4>
+        <p>{{sc.skill}}</p>
+    </div>
+    <div class="col-md-3" id="highFiveArea">
+        <h4>High Fives Received</h4>
+        <p>{{sc.highFives}}</p>
+    </div>
+    <div class="col-md-3" id="highFiveArea">
+        <h4>Total High Fives</h4>
+        <p>{{sc.counterFlavor}}</p>
+    </div>
+</section>
