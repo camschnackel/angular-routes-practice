@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var path = require('path');
-var port = 3003;
+var port = process.env.PORT || 3000;
 
 var gifRouter = require('./routes/gifs');
 
